@@ -1,13 +1,14 @@
 {
   "name": "hexlet",
   "version": "1.0.0",
+  "type": "module",
   "description": "test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/KristinaDegtereva/hexlet-js.git"
   },
   "keywords": [
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/KristinaDegtereva/hexlet-js/issues"
   },
-  "homepage": "https://github.com/KristinaDegtereva/hexlet-js#readme"
+  "homepage": "https://github.com/KristinaDegtereva/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
